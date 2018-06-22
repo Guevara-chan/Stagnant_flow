@@ -1,8 +1,17 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>[Stagnant_flow]</title>
+	<script src="lib/coffeescript.js"></script>
+</head>
 <body style='margin:0; background-color:black; background: #0f0f0f -webkit-repeating-linear-gradient(top, transparent 0px, transparent 1px, 
 	rgba(0, 0, 0, 0.25) 1px, rgba(0, 0, 0, 0.25) 2px);
  	-webkit-background-size: 100% 2px;'>
-	<center style = "position: absolute; top: 50%; left: 50%;  transform: translateX(-50%) translateY(-50%); ">
-	<canvas width='800' height='800' style="height:0%; width:0%; visibility:hidden;" id='buffer'></canvas>
-	<canvas width='1600' height='1600' style="height:700px; width:700px; border: dashed 1px darkslategray  " id='viewport'></canvas>
-	</center>
+		<center style = "position: absolute; top: 50%; left: 50%;  transform: translateX(-50%) translateY(-50%); ">
+			<canvas width='800' height='800' style="height:0%; width:0%; visibility:hidden;" id='buffer'></canvas>
+			<canvas width='1600' height='1600' style="height:700px; width:700px; border: dashed 1px darkslategray  " id='viewport'></canvas>
+		</center>
+
+	<script type="text/coffeescript" src="./flow.coffee"></script>
 </body>
+</html>
