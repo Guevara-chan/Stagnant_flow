@@ -3,7 +3,7 @@ __stagnant flow__ is a fullscreen HTML5 demo, based on custom cellular automata 
 Made with demoscene rules in mind, it's fully implemented in pure canvas with [CoffeeScript](https://coffeescript.org/) and 0 external dependencies.
 
 # ⋮Featuræ⋮
-* All-custom automata ruleset in beatiful square pattern.
+* All-custom automata ruleset in beautiful square pattern.
 * [Codepen](http://codepen.io)-ready.
 
 # ⋮Compatibility⋮
